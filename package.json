@@ -1,0 +1,21 @@
+{
+  "name": "webpack_start_point",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack -w",
+    "test": "mocha client/src/models/specs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2",
+    "webpack": "^3.0.0"
+  }
+}
